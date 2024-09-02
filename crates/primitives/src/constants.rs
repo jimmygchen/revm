@@ -41,7 +41,7 @@ pub const PRECOMPILE3: Address =
 pub const GAS_PER_BLOB: u64 = 1 << 17;
 
 /// Target number of the blob per block.
-pub const TARGET_BLOB_NUMBER_PER_BLOCK: u64 = 3;
+pub const TARGET_BLOB_NUMBER_PER_BLOCK: u64 = 16;
 
 /// Max number of blobs per block
 pub const MAX_BLOB_NUMBER_PER_BLOCK: u64 = 2 * TARGET_BLOB_NUMBER_PER_BLOCK;
